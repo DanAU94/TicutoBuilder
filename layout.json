@@ -1,0 +1,2582 @@
+{
+  "version": 7,
+  "settings": {
+    "gridW": 52,
+    "gridH": 26,
+    "imageW": 52,
+    "imageH": 39,
+    "imageLift": 0
+  },
+  "camera": {
+    "x": 573,
+    "y": 212,
+    "zoom": 1
+  },
+  "tiles": [
+    {
+      "x": 9,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 3
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "tile": {
+        "id": "water",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "tile": {
+        "id": "path",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 2
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 11,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "tile": {
+        "id": "path",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 10,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "tile": {
+        "id": "water",
+        "variant": 3
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "tile": {
+        "id": "water",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "tile": {
+        "id": "water",
+        "variant": 5
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "tile": {
+        "id": "water",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 10,
+      "tile": {
+        "id": "water",
+        "variant": 3
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 3
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "tile": {
+        "id": "water",
+        "variant": 6
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 12,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 13,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 13,
+      "tile": {
+        "id": "bridge",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 13,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 12,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 11,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 12,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 13,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 13,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 12,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 13,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 4,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 3,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "tile": {
+        "id": "water",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "tile": {
+        "id": "water",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "tile": {
+        "id": "water",
+        "variant": 4
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 4,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 5,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 5,
+      "tile": {
+        "id": "bridge",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 15,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 13,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 12,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "tile": {
+        "id": "water",
+        "variant": 1
+      },
+      "item": null
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 19,
+      "y": 1,
+      "tile": {
+        "id": "water",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 22,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 20,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "tile": {
+        "id": "path",
+        "variant": 2
+      },
+      "item": null
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "tile": {
+        "id": "grass",
+        "variant": 0
+      },
+      "item": null
+    }
+  ]
+}
