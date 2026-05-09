@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Ticuto Room Builder</title>
+<title>Isometric Floor Layout Builder</title>
 <style>
 :root{--bg:#0c2f2f;--grid:rgba(80,180,170,.18);--panel:#f5d39a;--panel-dark:#b47a33;--panel-light:#ffe8ba;--text:#3c2207}
 *{box-sizing:border-box}
@@ -24,6 +24,9 @@ details.tools-panel summary{cursor:pointer;font-weight:bold;padding:9px;backgrou
 .tool-settings{display:grid;gap:8px;padding:10px 10px 0;font-size:13px}
 .tool-settings label{display:grid;grid-template-columns:1fr 90px;align-items:center;gap:8px}
 .tool-settings select{width:90px;padding:5px;border:2px solid #d39a4c;background:#fff5d8;border-radius:4px}
+.zoom-buttons{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.zoom-btn{background:#fff5d8;border:2px solid #d39a4c;border-radius:4px;padding:7px 4px;cursor:pointer;font-weight:bold;color:var(--text)}
+.zoom-btn.active{background:#2b7cff;color:white}
 .controls{display:grid;gap:8px;margin-top:12px;padding:0 10px 10px}
 .controls button,.controls label{background:var(--panel-light);border:2px solid #d39a4c;color:var(--text);padding:8px;border-radius:4px;cursor:pointer;font-weight:bold;text-align:center}
 .controls input[type=file]{display:none}
@@ -38,7 +41,7 @@ canvas{width:100%;height:100%;display:block;cursor:default}
 <aside>
 <h1>Ticuto Room Builder</h1>
 <div class="help">
-Join <a href="http://ticuto.com">Ticuto</a> and let your journey begin!
+Join <a href='http://ticuto.com/'>Ticuto</a> and let your journey begin!
 </div>
 
 <div class="section-title">Tiles</div>
@@ -50,13 +53,12 @@ Join <a href="http://ticuto.com">Ticuto</a> and let your journey begin!
 <details class="tools-panel" open>
 <summary>Tools</summary>
 <div class="tool-settings">
-<label>Zoom
-<select id="zoomSelect">
-<option value="1" selected>100%</option>
-<option value="1.5">150%</option>
-<option value="2">200%</option>
-</select>
-</label>
+<div class="zoom-buttons">
+<button class="zoom-btn" data-zoom="0.5">0.5x</button>
+<button class="zoom-btn active" data-zoom="1">1x</button>
+<button class="zoom-btn" data-zoom="1.5">1.5x</button>
+<button class="zoom-btn" data-zoom="2">2x</button>
+</div>
 </div>
 <div class="controls">
 <button id="eraserBtn">Eraser</button>
@@ -80,7 +82,6 @@ const ctx=canvas.getContext("2d");
 const palette=document.getElementById("tilePalette");
 const itemPalette=document.getElementById("itemPalette");
 const hud=document.getElementById("hud");
-const zoomSelect=document.getElementById("zoomSelect");
 
 const TILE_SETTINGS={gridW:52,gridH:26,imageW:52,imageH:39,imageLift:0};
 
@@ -116,8 +117,12 @@ const tileList=[
   {id:'checkered',name:'Checkered',files:['18a.png']},
   {id:'starlight',name:'Starlight',files:['19a.png']},
   {id:'astralei',name:'Astralei',files:['20a.png']},
-  {id:'path',name:'Path',files:['21a.png','21b.png','21c.png','21d.png','21e.png','21f.png','21g.png','21h.png','21i.png','21j.png','21k.png','21l.png','21m.png','21n.png','21o.png']},
+  {id:'pathend',name:'Path End',files:['21a.png','21b.png','21c.png','21d.png']},
+  {id:'pathstraight',name:'Path Straight',files:['21e.png','21f.png']},
+  {id:'pathsec',name:'Path Intersections',files:['21g.png','21h.png','21i.png','21j.png','21k.png']},
+  {id:'pathcorn',name:'Path Corner',files:['21l.png','21m.png','21n.png','21o.png']},
   {id:'sandedge',name:'Sand Edge',files:['24a.png','24b.png','24c.png','24d.png','24e.png']},
+  {id:'map',name:'Map',files:['25.png'],imageW:3591,imageH:2250},
 ];
 
 const itemList=[
@@ -130,6 +135,12 @@ const itemList=[
   {id:'mine',name:'Mine',files:['7a.png'],imageW:159,imageH:113},
   {id:'campfire',name:'Campfire',files:['8a.png','8b.png','8c.png','8d.png','8e.png'],imageW:38,imageH:50},
   {id:'dancetile',name:'Dance Tile',files:['9a.png','9b.png','9c.png','9d.png','9e.png'],imageW:50,imageH:28},
+  {id:'bboard',name:'Bulletin Board',files:['10a.png','10b.png'],imageW:94,imageH:118},
+  {id:'pot',name:'Dirt Pot',files:['11a.png'],imageW:30,imageH:28},
+  {id:'tmach',name:'Ticuto Machine',files:['12a.png'],imageW:139,imageH:136},
+  {id:'gram',name:'Gramophone',files:['13a.png'],imageW:47,imageH:71},
+  {id:'alien',name:'Alien',files:['14a.png'],imageW:41,imageH:60},
+  {id:'build',name:'Building',files:['15a.png'],imageW:254,imageH:230},
 ];
 
 const fallbackImagePath="tiles/fallback.png";
@@ -384,11 +395,6 @@ function buildPalette(){
  buildPaletteSection(itemPalette,"item",itemList);
  updateActivePaletteButton();
 }
-function syncZoomDropdown(){
- const value=String(camera.zoom);
- const options=[...zoomSelect.options].map(o=>o.value);
- if(options.includes(value))zoomSelect.value=value;
-}
 canvas.addEventListener("mousemove",e=>{
  const rect=canvas.getBoundingClientRect();
  mouse.x=e.clientX-rect.left;
@@ -418,16 +424,20 @@ canvas.addEventListener("contextmenu",e=>{
  placeAtMouse();
  eraser=oldEraser;
 });
-canvas.addEventListener("wheel",e=>{
- e.preventDefault();
- const zoomFactor=e.deltaY<0?1.1:.9;
- camera.zoom=Math.max(.5,Math.min(5,camera.zoom*zoomFactor));
- syncZoomDropdown();
- draw();
-},{passive:false});
 window.addEventListener("keydown",e=>{if(e.code==="Space")spaceHeld=true});
 window.addEventListener("keyup",e=>{if(e.code==="Space")spaceHeld=false});
-zoomSelect.addEventListener("change",()=>{camera.zoom=Number(zoomSelect.value);draw()});
+function updateZoomButtons(){
+ document.querySelectorAll(".zoom-btn").forEach(btn=>{
+  btn.classList.toggle("active",Number(btn.dataset.zoom)===camera.zoom);
+ });
+}
+document.querySelectorAll(".zoom-btn").forEach(btn=>{
+ btn.onclick=()=>{
+  camera.zoom=Number(btn.dataset.zoom);
+  updateZoomButtons();
+  draw();
+ };
+});
 document.getElementById("eraserBtn").onclick=()=>{eraser=!eraser;draw()};
 document.getElementById("clearBtn").onclick=()=>{if(confirm("Clear the whole layout?")){grid.clear();draw()}};
 document.getElementById("saveBtn").onclick=()=>{
@@ -455,7 +465,7 @@ document.getElementById("loadFile").onchange=e=>{
  reader.onload=()=>{
   try{
    const data=JSON.parse(reader.result);
-   if(data.camera){camera=data.camera;syncZoomDropdown()}
+   if(data.camera){camera=data.camera;}
    grid.clear();
    for(const item of data.tiles||[]){
     if(item.tile!==undefined||item.item!==undefined){
@@ -568,7 +578,7 @@ async function loadDefaultLayout(){
 
   if(data.camera){
    camera = data.camera;
-   syncZoomDropdown();
+   
   }
 
   grid.clear();
@@ -595,7 +605,7 @@ async function loadDefaultLayout(){
  }
 }
 buildPalette();
-syncZoomDropdown();
+
 resizeCanvas();
 window.addEventListener("resize",resizeCanvas);
 loadDefaultLayout();
