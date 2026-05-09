@@ -96,6 +96,10 @@ let mouse={x:0,y:0,down:false,pan:false,lastX:0,lastY:0};
 let spaceHeld=false;
 
 const tileList=[
+  {id:'pathend',name:'Path End',files:['21a.png','21b.png','21c.png','21d.png']},
+  {id:'pathstraight',name:'Path Straight',files:['21e.png','21f.png']},
+  {id:'pathsec',name:'Path Intersections',files:['21g.png','21h.png','21i.png','21j.png','21k.png']},
+  {id:'pathcorn',name:'Path Corner',files:['21l.png','21m.png','21n.png','21o.png']},
   {id:'grass',name:'Grass',files:['1a.png','1b.png','1c.png','1d.png','1e.png']},
   {id:'dirt',name:'Dirt',files:['2a.png','2b.png','2c.png']},
   {id:'hole',name:'Hole',files:['3a.png']},
@@ -117,12 +121,7 @@ const tileList=[
   {id:'checkered',name:'Checkered',files:['18a.png']},
   {id:'starlight',name:'Starlight',files:['19a.png']},
   {id:'astralei',name:'Astralei',files:['20a.png']},
-  {id:'pathend',name:'Path End',files:['21a.png','21b.png','21c.png','21d.png']},
-  {id:'pathstraight',name:'Path Straight',files:['21e.png','21f.png']},
-  {id:'pathsec',name:'Path Intersections',files:['21g.png','21h.png','21i.png','21j.png','21k.png']},
-  {id:'pathcorn',name:'Path Corner',files:['21l.png','21m.png','21n.png','21o.png']},
   {id:'sandedge',name:'Sand Edge',files:['24a.png','24b.png','24c.png','24d.png','24e.png']},
-  {id:'map',name:'Map',files:['25.png'],imageW:3591,imageH:2250},
 ];
 
 const itemList=[
@@ -135,12 +134,6 @@ const itemList=[
   {id:'mine',name:'Mine',files:['7a.png'],imageW:159,imageH:113},
   {id:'campfire',name:'Campfire',files:['8a.png','8b.png','8c.png','8d.png','8e.png'],imageW:38,imageH:50},
   {id:'dancetile',name:'Dance Tile',files:['9a.png','9b.png','9c.png','9d.png','9e.png'],imageW:50,imageH:28},
-  {id:'bboard',name:'Bulletin Board',files:['10a.png','10b.png'],imageW:94,imageH:118},
-  {id:'pot',name:'Dirt Pot',files:['11a.png'],imageW:30,imageH:28},
-  {id:'tmach',name:'Ticuto Machine',files:['12a.png'],imageW:139,imageH:136},
-  {id:'gram',name:'Gramophone',files:['13a.png'],imageW:47,imageH:71},
-  {id:'alien',name:'Alien',files:['14a.png'],imageW:41,imageH:60},
-  {id:'build',name:'Building',files:['15a.png'],imageW:254,imageH:230},
 ];
 
 const fallbackImagePath="tiles/fallback.png";
